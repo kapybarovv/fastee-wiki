@@ -12,11 +12,54 @@ export default {
         k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
       })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=108257267','ym');
       ym(108257267, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});`
-    ],
-    [
-      'noscript',
-      {},
-      '<div><img src="https://mc.yandex.ru/watch/108257267" style="position:absolute; left:-9999px;" alt="" /></div>'
     ]
-  ]
+  ],
+  themeConfig: {
+    nav: [
+      { text: 'Главная', link: '/' },
+      { text: 'Сайт', link: 'https://fstee.ru' },
+    ],
+    sidebar: [
+      {
+        text: '📖 О сервисе',
+        items: [
+          { text: 'О сервисе', link: '/about-service' },
+          { text: 'Личный кабинет', link: '/lk' },
+        ]
+      },
+      {
+        text: '📱 iOS',
+        items: [
+          { text: 'Частые проблемы', link: '/ios-problems/ios' },
+        ]
+      },
+      {
+        text: '🤖 Android',
+        items: [
+          { text: 'Частые проблемы', link: '/android-problems/android' },
+        ]
+      },
+      {
+        text: '🪟 Windows',
+        items: [
+          { text: 'Частые проблемы', link: '/windows-problems/windows' },
+        ]
+      },
+      {
+        text: '🍎 macOS',
+        items: [
+          { text: 'Частые проблемы', link: '/macos-problems/macos' },
+        ]
+      },
+      {
+        text: '💬 Поддержка',
+        items: [
+          { text: 'Связаться с нами', link: '/support' },
+        ]
+      }
+    ],
+    search: {
+      provider: 'local'
+    }
+  }
 }
