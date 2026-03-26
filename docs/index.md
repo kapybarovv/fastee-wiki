@@ -1,8 +1,8 @@
 ---
 layout: home
 hero:
-  name: "Fastee Wiki"
-  tagline: "Полная база знаний для пользователей сервиса"
+  name: "Fastee Help Center"
+  tagline: "База знаний для пользователей ключей Happ"
   actions:
     - theme: brand
       text: Начать работу
@@ -20,5 +20,5 @@ features:
     details: Регулярно обновляем контент под последние изменения сервиса
   - icon: 📚
     title: Полная база знаний
-    details: Здесь есть всё, что может понадобиться при использовании Fastee
+    details: Здесь есть всё, что может понадобиться при использовании Happ, V2RayTun, Hiddify
 ---
